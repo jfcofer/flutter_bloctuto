@@ -1,0 +1,24 @@
+name: database_users_api
+description: API que conecta los requests de un usuario con la Base de Datos
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+  flutter: "^3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  rxdart: ^0.27.7
+  sqflite: ^2.3.2
+  users_api:
+    path: ../users_api
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  very_good_analysis: ^5.1.0

@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "loading": "Loading",
+  "homePageTitle": "Home",
+  "homeMenuUsersTile": "Users list",
+  "usersOverviewPageTitle": "Users list",
+  "settingsPageTitle": "Settings",
+  "settingsMenuThemeTileTitle": "Theme",
+  "settingsMenuThemeTileDescription": "Choose the theme for your app",
+  "themeSettingsPageTitle": "Pick the theme",
+  "themeMode": "{theme, select, light{Light} dark{Dark} system{System} other{Theme Not Found}}",
+  "@themeMode": {
+    "description": "themeMode of the app",
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+name: flutter_users_bloc_sqflite
+description: CRUD de usuarios con bloc y sqflite.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+
+dependencies:
+  bloc: ^8.1.3
+  database_users_api:
+    path: packages/database_users_api
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^13.2.1
+  intl: ^0.18.1
+  local_storage_theme_api:
+    path: packages/local_storage_theme_api
+  shared_preferences: ^2.2.2
+  theme_api:
+    path: packages/theme_api
+  theme_repository:
+    path: packages/theme_repository
+  users_api:
+    path: packages/users_api
+  users_repository:
+    path: packages/users_repository
+
+  
+dev_dependencies:
+  bloc_test: ^9.1.6
+  build_runner: ^2.4.8
+  build_verify: ^3.1.0
+  flutter_test:
+    sdk: flutter
+  go_router_builder: ^2.4.1
+  mocktail: ^1.0.3
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true

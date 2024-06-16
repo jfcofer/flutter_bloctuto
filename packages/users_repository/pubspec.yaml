@@ -1,0 +1,16 @@
+name: users_repository
+description: Repositorio de los usuarios para las peticiones de la app.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+
+dependencies:
+  users_api:
+    path: ../users_api
+
+dev_dependencies:
+  mocktail: ^1.0.3
+  test: ^1.25.2
+  very_good_analysis: ^5.1.0

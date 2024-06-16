@@ -1,0 +1,20 @@
+{
+  "@@locale": "es",
+  "loading": "Cargando",
+  "homePageTitle": "Inicio",
+  "homeMenuUsersTile": "Lista de usuarios",
+  "usersOverviewPageTitle": "Lista de usuarios",
+  "settingsPageTitle": "Ajustes",
+  "settingsMenuThemeTileTitle": "Tema",
+  "settingsMenuThemeTileDescription": "Personaliza el tema de tu aplicación",
+  "themeSettingsPageTitle": "Escoge el tema",
+  "themeMode": "{theme, select, light{Claro} dark{Oscuro} system{Sistema} other{Tema no encontrado}}",
+  "@themeMode": {
+    "description": "themeMode of the app",
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  }
+}
