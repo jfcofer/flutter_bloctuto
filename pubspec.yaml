@@ -17,7 +17,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   go_router: ^13.2.1
-  intl: ^0.18.1
+  intl: ^0.19.0
   local_storage_theme_api:
     path: packages/local_storage_theme_api
   shared_preferences: ^2.2.2
